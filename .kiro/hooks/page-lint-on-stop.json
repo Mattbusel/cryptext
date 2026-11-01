@@ -1,0 +1,12 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Lint every page before finishing",
+      "description": "When the agent finishes a turn, render every registered page from recorded fixtures and check the 25x40 grid, 7-bit codes, source footer and fastext links.",
+      "trigger": "Stop",
+      "action": { "type": "command", "command": "node scripts/lint-pages.mjs" },
+      "timeout": 120
+    }
+  ]
+}

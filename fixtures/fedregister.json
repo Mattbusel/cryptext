@@ -1,0 +1,429 @@
+{
+  "description": "All Documents",
+  "count": 10000,
+  "total_pages": 50,
+  "next_page_url": "https://www.federalregister.gov/api/v1/documents?fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=agencies&fields%5B%5D=publication_date&fields%5B%5D=document_number&format=json&order=newest&page=2&per_page=20&search_after_cursor=WzE3OTM1Nzc2MDAwMDAsIjIwMjYtMjIzMzYiXQ",
+  "results": [
+    {
+      "title": "Delegation of Authority Under Section 8335 of the National Defense Authorization Act for Fiscal Year 2026",
+      "type": "Presidential Document",
+      "agencies": [
+        {
+          "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+          "name": "Executive Office of the President",
+          "id": 538,
+          "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+          "parent_id": null,
+          "slug": "executive-office-of-the-president"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22386"
+    },
+    {
+      "title": "Adjusting Imports of Robotics, Industrial Machinery, and Their Parts and Components Into the United States",
+      "type": "Presidential Document",
+      "agencies": [
+        {
+          "raw_name": "EXECUTIVE OFFICE OF THE PRESIDENT",
+          "name": "Executive Office of the President",
+          "id": 538,
+          "url": "https://www.federalregister.gov/agencies/executive-office-of-the-president",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/538",
+          "parent_id": null,
+          "slug": "executive-office-of-the-president"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22385"
+    },
+    {
+      "title": "Truck Bed Covers From the People's Republic of China: Amended Preliminary Determination of the Less-Than-Fair-Value Investigation",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "International Trade Administration",
+          "name": "International Trade Administration",
+          "id": 261,
+          "url": "https://www.federalregister.gov/agencies/international-trade-administration",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/261",
+          "parent_id": 54,
+          "slug": "international-trade-administration"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22353"
+    },
+    {
+      "title": "Foreign-Trade Zone (FTZ) 80; Authorization of Production Activity; StandardAero San Antonio; (Refurbished Engines); San Antonio, Texas",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Foreign-Trade Zones Board",
+          "name": "Foreign-Trade Zones Board",
+          "id": 208,
+          "url": "https://www.federalregister.gov/agencies/foreign-trade-zones-board",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/208",
+          "parent_id": 54,
+          "slug": "foreign-trade-zones-board"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22352"
+    },
+    {
+      "title": "Corrosion-Resistant Steel Products From Mexico: Notice of Court Decision Not in Harmony With the Final Determination of Antidumping Duty Investigation; Notice of Amended Final Determination; Notice of Amended Antidumping Duty Order, in Part",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "International Trade Administration",
+          "name": "International Trade Administration",
+          "id": 261,
+          "url": "https://www.federalregister.gov/agencies/international-trade-administration",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/261",
+          "parent_id": 54,
+          "slug": "international-trade-administration"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22351"
+    },
+    {
+      "title": "Renewal of Agency Information Collection Activities: Submission for OMB Review; Comment Requested; Ocean Transportation Intermediaries; 3072-0018",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "FEDERAL MARITIME COMMISSION",
+          "name": "Federal Maritime Commission",
+          "id": 178,
+          "url": "https://www.federalregister.gov/agencies/federal-maritime-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/178",
+          "parent_id": null,
+          "slug": "federal-maritime-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22350"
+    },
+    {
+      "title": "Polyester Textured Yarn From Indonesia, Malaysia, Thailand, and Vietnam; Institution of Five-Year Reviews",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "INTERNATIONAL TRADE COMMISSION",
+          "name": "International Trade Commission",
+          "id": 262,
+          "url": "https://www.federalregister.gov/agencies/international-trade-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/262",
+          "parent_id": null,
+          "slug": "international-trade-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22349"
+    },
+    {
+      "title": "Certain Mobile Access Equipment (MAE) and Subassemblies Thereof From China; Institution of Five-Year Reviews",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "INTERNATIONAL TRADE COMMISSION",
+          "name": "International Trade Commission",
+          "id": 262,
+          "url": "https://www.federalregister.gov/agencies/international-trade-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/262",
+          "parent_id": null,
+          "slug": "international-trade-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22348"
+    },
+    {
+      "title": "Potassium Permanganate From China; Institution of a Five-Year Review",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "INTERNATIONAL TRADE COMMISSION",
+          "name": "International Trade Commission",
+          "id": 262,
+          "url": "https://www.federalregister.gov/agencies/international-trade-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/262",
+          "parent_id": null,
+          "slug": "international-trade-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22347"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Extension: Rule 18a-5",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "SECURITIES AND EXCHANGE COMMISSION",
+          "name": "Securities and Exchange Commission",
+          "id": 466,
+          "url": "https://www.federalregister.gov/agencies/securities-and-exchange-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/466",
+          "parent_id": null,
+          "slug": "securities-and-exchange-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22346"
+    },
+    {
+      "title": "Antidumping or Countervailing Duty Order, Finding, or Suspended Investigation; Opportunity To Request Administrative Review and Join Annual Inquiry Service List; Note Regarding Format of Review Requests",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "International Trade Administration",
+          "name": "International Trade Administration",
+          "id": 261,
+          "url": "https://www.federalregister.gov/agencies/international-trade-administration",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/261",
+          "parent_id": 54,
+          "slug": "international-trade-administration"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22345"
+    },
+    {
+      "title": "Foreign-Trade Zone (FTZ) 38; Authorization of Production Activity; Coroplast Tape Corporation; (Pressure Sensitive Tapes); Rock Hill, South Carolina",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "Foreign-Trade Zones Board",
+          "name": "Foreign-Trade Zones Board",
+          "id": 208,
+          "url": "https://www.federalregister.gov/agencies/foreign-trade-zones-board",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/208",
+          "parent_id": 54,
+          "slug": "foreign-trade-zones-board"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22344"
+    },
+    {
+      "title": "Large Power Transformers From the Republic of Korea: Preliminary Results of Antidumping Duty Administrative Review; 2024-2025",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF COMMERCE",
+          "name": "Commerce Department",
+          "id": 54,
+          "url": "https://www.federalregister.gov/agencies/commerce-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/54",
+          "parent_id": null,
+          "slug": "commerce-department"
+        },
+        {
+          "raw_name": "International Trade Administration",
+          "name": "International Trade Administration",
+          "id": 261,
+          "url": "https://www.federalregister.gov/agencies/international-trade-administration",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/261",
+          "parent_id": 54,
+          "slug": "international-trade-administration"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22343"
+    },
+    {
+      "title": "Chassis and Subassemblies From China; Determinations",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "INTERNATIONAL TRADE COMMISSION",
+          "name": "International Trade Commission",
+          "id": 262,
+          "url": "https://www.federalregister.gov/agencies/international-trade-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/262",
+          "parent_id": null,
+          "slug": "international-trade-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22342"
+    },
+    {
+      "title": "NCES Request for Information, Correction",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF EDUCATION",
+          "name": "Education Department",
+          "id": 126,
+          "url": "https://www.federalregister.gov/agencies/education-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/126",
+          "parent_id": null,
+          "slug": "education-department"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22341"
+    },
+    {
+      "title": "Annual Determination of Average Cost of Incarceration Fee (COIF)",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF JUSTICE",
+          "name": "Justice Department",
+          "id": 268,
+          "url": "https://www.federalregister.gov/agencies/justice-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/268",
+          "parent_id": null,
+          "slug": "justice-department"
+        },
+        {
+          "raw_name": "Bureau of Prisons",
+          "name": "Prisons Bureau",
+          "id": 437,
+          "url": "https://www.federalregister.gov/agencies/prisons-bureau",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/437",
+          "parent_id": 268,
+          "slug": "prisons-bureau"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22340"
+    },
+    {
+      "title": "Prospective Grant of Exclusive Patent License: Catheter-Based Intramyocardial Ablation for Treating Ventricular Arrhythmia in a Human",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+          "name": "Health and Human Services Department",
+          "id": 221,
+          "url": "https://www.federalregister.gov/agencies/health-and-human-services-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+          "parent_id": null,
+          "slug": "health-and-human-services-department"
+        },
+        {
+          "raw_name": "National Institutes of Health",
+          "name": "National Institutes of Health",
+          "id": 353,
+          "url": "https://www.federalregister.gov/agencies/national-institutes-of-health",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/353",
+          "parent_id": 221,
+          "slug": "national-institutes-of-health"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22339"
+    },
+    {
+      "title": "Information Collections Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "FEDERAL COMMUNICATIONS COMMISSION",
+          "name": "Federal Communications Commission",
+          "id": 161,
+          "url": "https://www.federalregister.gov/agencies/federal-communications-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/161",
+          "parent_id": null,
+          "slug": "federal-communications-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22338"
+    },
+    {
+      "title": "Unleashing the Power of Unlicensed Ultra-Wideband Devices; Petition of Robert Bosch LLC for Amendment of the Part 15 Subpart F Ultra-Wideband Rules; and Petition of Alliance for Automative Innovation et al. To Amend Part 15 of the FCC's Rules To Permit the Operation of Certain Ultra-Wideband Devices",
+      "type": "Proposed Rule",
+      "agencies": [
+        {
+          "raw_name": "FEDERAL COMMUNICATIONS COMMISSION",
+          "name": "Federal Communications Commission",
+          "id": 161,
+          "url": "https://www.federalregister.gov/agencies/federal-communications-commission",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/161",
+          "parent_id": null,
+          "slug": "federal-communications-commission"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22337"
+    },
+    {
+      "title": "Notice of Petition for Waiver of Compliance",
+      "type": "Notice",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF TRANSPORTATION",
+          "name": "Transportation Department",
+          "id": 492,
+          "url": "https://www.federalregister.gov/agencies/transportation-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+          "parent_id": null,
+          "slug": "transportation-department"
+        },
+        {
+          "raw_name": "Federal Railroad Administration",
+          "name": "Federal Railroad Administration",
+          "id": 185,
+          "url": "https://www.federalregister.gov/agencies/federal-railroad-administration",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/185",
+          "parent_id": 492,
+          "slug": "federal-railroad-administration"
+        }
+      ],
+      "publication_date": "2026-11-02",
+      "document_number": "2026-22336"
+    }
+  ]
+}

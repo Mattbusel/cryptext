@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Block em dashes",
+      "description": "House style: the em dash never appears. Fails loudly with file and line so the agent fixes it right away.",
+      "trigger": "PostFileSave",
+      "matcher": "\.(ts|js|md|html|css|json)$",
+      "action": { "type": "command", "command": "node scripts/check-dashes.mjs" },
+      "timeout": 30
+    }
+  ]
+}

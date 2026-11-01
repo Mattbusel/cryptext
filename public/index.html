@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRYPTEXT</title>
+<meta name="description" content="Teletext, back from the grave: 40x25 pages of live US public data on a haunted CRT. Also as ANSI for curl, JSON and MCP for AI agents, and TTI for real teletext inserters.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23000'/%3E%3Crect x='2' y='3' width='12' height='3' fill='%23ff0'/%3E%3Crect x='2' y='8' width='5' height='2' fill='%230ff'/%3E%3Crect x='9' y='8' width='5' height='2' fill='%23f00'/%3E%3Crect x='2' y='11' width='12' height='2' fill='%230f0'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/viewer.css">
+</head>
+<body>
+<main class="room">
+  <section class="tv" aria-label="CRYPTEXT television">
+    <div class="bezel">
+      <div class="screen" id="screen">
+        <div class="glass">
+          <div class="grid" id="grid" role="document" aria-live="polite"></div>
+          <div class="ghost" id="ghost" aria-hidden="true"></div>
+        </div>
+        <div class="scan" aria-hidden="true"></div>
+        <div class="band" aria-hidden="true"></div>
+        <div class="vignette" aria-hidden="true"></div>
+        <div class="poweron" id="poweron" aria-hidden="true"></div>
+      </div>
+      <div class="badge">CRYPTEXT <span>TELETEXT RECEIVER</span></div>
+      <div class="led" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <aside class="remote" aria-label="Remote control">
+    <div class="ir" aria-hidden="true"></div>
+    <div class="entry" id="entry" aria-live="polite">P100</div>
+    <div class="keys">
+      <button data-d="1">1</button><button data-d="2">2</button><button data-d="3">3</button>
+      <button data-d="4">4</button><button data-d="5">5</button><button data-d="6">6</button>
+      <button data-d="7">7</button><button data-d="8">8</button><button data-d="9">9</button>
+      <button id="prev" aria-label="Previous page">&#9650;</button><button data-d="0">0</button><button id="next" aria-label="Next page">&#9660;</button>
+    </div>
+    <div class="fastext">
+      <button class="fx red" data-fx="red" aria-label="Red link">&nbsp;</button>
+      <button class="fx green" data-fx="green" aria-label="Green link">&nbsp;</button>
+      <button class="fx yellow" data-fx="yellow" aria-label="Yellow link">&nbsp;</button>
+      <button class="fx cyan" data-fx="cyan" aria-label="Cyan link">&nbsp;</button>
+    </div>
+    <div class="row3">
+      <button id="index" aria-label="Index page 100">INDEX</button>
+      <button id="reveal" aria-label="Reveal concealed text">?</button>
+      <button id="k666" class="evil" aria-label="Page 666">666</button>
+    </div>
+    <p class="hint">Type 3 digits. R G Y C follow the coloured links. Arrows step pages. ? reveals.</p>
+  </aside>
+
+  <section class="panel" aria-label="Other ways in">
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="curl">Terminal</button>
+      <button role="tab" aria-selected="false" data-tab="agents">AI agents</button>
+      <button role="tab" aria-selected="false" data-tab="broadcast">Real TV</button>
+    </div>
+    <div class="tabbody" data-body="curl">
+      <p>Every page works in a terminal, with colours:</p>
+      <pre id="curlcmd"></pre>
+      <button class="copy" data-copy="curlcmd">Copy</button>
+    </div>
+    <div class="tabbody" data-body="agents" hidden>
+      <p>Agents read the same pages over MCP (stdio). Add to your MCP config:</p>
+      <pre id="mcpcfg">{ "mcpServers": { "cryptext": { "command": "node", "args": ["dist/mcp/server.js"] } } }</pre>
+      <p>Tools: <code>list_pages</code>, <code>read_page(n, format)</code>. Or plain HTTP: <a id="textlink" href="#">this page as JSON</a>.</p>
+    </div>
+    <div class="tabbody" data-body="broadcast" hidden>
+      <p>Download this page as a TTI file. VBIT2 on a Raspberry Pi turns TTI files into a real teletext signal for an analogue TV.</p>
+      <a class="copy" id="ttilink" href="#" download>Download .tti</a>
+    </div>
+    <p class="src">Open source: <a href="https://github.com/Mattbusel/cryptext">github.com/Mattbusel/cryptext</a>. Built with Kiro for Kiroween 2026.</p>
+  </section>
+</main>
+<script src="/viewer.js"></script>
+</body>
+</html>

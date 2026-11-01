@@ -1,0 +1,25 @@
+{
+  "name": "cryptext",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CRYPTEXT: Teletext revival service for live public data",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --run",
+    "dev": "node scripts/dev-server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "fast-check": "^3.13.0",
+    "puppeteer-core": "^24.43.1",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "license": "MIT",
+  "repository": "github.com/Mattbusel/cryptext"
+}

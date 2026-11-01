@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cryptext": {
+      "command": "node",
+      "args": ["dist/mcp/server.js"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": ["list_pages", "read_page"]
+    }
+  }
+}

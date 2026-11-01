@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run engine and encoder tests on save",
+      "description": "Any edit to the page engine, encoders or their tests re-runs the fast vitest suite so regressions show up in the same turn.",
+      "trigger": "PostFileSave",
+      "matcher": "(src[\\/](engine|encode)|tests[\\/]).*\.ts$",
+      "action": { "type": "command", "command": "npx vitest --run --reporter=dot tests/engine tests/codes tests/encoders" },
+      "timeout": 180
+    }
+  ]
+}
